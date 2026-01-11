@@ -1,2 +1,2 @@
 # scalable-high-availability-aws-infrastructure-wordpress
-A production-grade, highly available and scalable WordPress architecture on AWS using ALB, Auto Scaling, EFS, RDS, S3, and cost-optimized storage strategies.
+TravelStream is an enterprise-grade WordPress deployment that solves real-world challenges faced by high-traffic, media-heavy websites. This advanced cloud architecture on AWS using ALB, Auto Scaling, EFS, RDS, S3, IAM Role, Glacier Deep Archive and cost-optimized storage strategies demonstrates automatically transition storage tiers while maintaining availability and Scalability.
