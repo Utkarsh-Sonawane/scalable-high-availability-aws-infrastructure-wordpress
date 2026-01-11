@@ -142,9 +142,9 @@ In a multi-instance setup, this causes **broken images and inconsistent media**.
 ### 🔐 IAM & Security Best Practices
 - EC2 uses IAM Roles (no static credentials)
 - Least-privilege permissions:
-  - `s3:GetObject`
-  - `s3:PutObject`
-  - `s3:ListBucket` (bucket-level only)
+  - s3:GetObject
+  - s3:PutObject
+  - s3:ListBucket (bucket-level only)
 - No public S3 access
 - All backend resources in private subnets
 
@@ -167,12 +167,12 @@ In a multi-instance setup, this causes **broken images and inconsistent media**.
 - Website continued functioning
 
 ### 🎯 Key Outcomes
-✔ Highly available WordPress deployment  
-✔ No single point of failure  
-✔ Shared state across instances  
-✔ Secure, private architecture  
-✔ Automatic scaling & self-healing  
-✔ Optimized storage costs  
+ 1) Highly available WordPress deployment  
+ 2) No single point of failure  
+ 3) Shared state across instances  
+ 4) Secure, private architecture  
+ 5) Automatic scaling & self-healing  
+ 6) Optimized storage costs  
 
 ### 🧠 What This Project Demonstrates
 - Real-world AWS architecture design
