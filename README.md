@@ -104,7 +104,7 @@ In a multi-instance setup, this causes **broken images and inconsistent media**.
 - Amazon EFS mounted at: /var/www/html
 
 - ### 📁 Shared Storage (Amazon EFS)
-- Mounted automatically via **Launch Template user-data**
+- Mounted automatically via **Launch Template user-data**(mount -t efs fs-00a0542a495742795:/ /var/www/html)
 - Mount targets created in **each private subnet (AZ-aware)**
 
 **Result**
