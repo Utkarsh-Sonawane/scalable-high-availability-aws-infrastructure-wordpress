@@ -1,0 +1,2 @@
+sudo yum install stress-ng -y
+stress-ng --cpu 0 --cpu-method matrixprod --timeout 1000s
