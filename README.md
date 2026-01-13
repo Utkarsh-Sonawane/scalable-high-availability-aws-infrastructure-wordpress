@@ -230,6 +230,10 @@ In a multi-instance setup, this causes **broken images and inconsistent media**.
 
 ### 🙌 Author
 ### Utkarsh Sonawane
+<div align="center">
+⭐ If this project helped you, please consider giving it a star!
+Built with ❤️ using AWS and WordPress
+</div>
 
 
 
