@@ -228,6 +228,9 @@ In a multi-instance setup, this causes **broken images and inconsistent media**.
 - Integrate AWS WAF for security
 - Replace cron jobs with EventBridge + Lambda
 
+### 🙌 Author
+### Utkarsh Sonawane
+
 
 
 
