@@ -11,6 +11,21 @@ TravelStream is an enterprise-grade WordPress deployment that solves real-world 
 
 Traditional WordPress deployments struggle to meet production-grade requirements this project addresses those gaps using AWS-native, enterprise-ready solutions.
 
+<p align="center">
+  <img src="screenshots/Architecture-Diagram.png" width="800">
+  <br>
+  <em>Architecture Diagram</em>
+</p>
+
+---
+
+<p align="center">
+  <img src="screenshots/workflow-diagram.png" width="800">
+  <br>
+  <em>flow Diagram</em>
+</p>
+
+
 | Production Challenge | Real-World Impact in Scaled Systems                                   | AWS-Based Solution Implemented                              |
 |----------------------|-------------------------------------------------------------------------|-------------------------------------------------------------|
 | Media File Inconsistency | Broken images (404 errors) when traffic is served by multiple servers | Shared Amazon EFS for centralized media storage             |
@@ -149,6 +164,9 @@ In a multi-instance setup, this causes **broken images and inconsistent media**.
 - All backend resources in private subnets
 
 ### 🧪 Testing & Validation
+
+📁 [testing](testing/)
+
 
 **High Availability**
 - Terminated one EC2 instance manually
