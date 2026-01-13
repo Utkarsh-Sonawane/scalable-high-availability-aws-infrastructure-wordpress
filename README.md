@@ -1,5 +1,27 @@
 # Scalable-high-availability-aws-infrastructure-wordpress
-TravelStream is an enterprise-grade WordPress deployment that solves real-world challenges faced by high-traffic, media-heavy websites. This advanced cloud architecture on AWS using ALB, Auto Scaling, EFS, RDS, S3, IAM Role, Glacier Deep Archive and cost-optimized storage strategies demonstrates automatically transition storage tiers while maintaining availability and Scalability.
+
+## 📌 README Summary
+
+This project demonstrates a **production-grade, highly available, and scalable WordPress infrastructure on AWS**, designed using real-world cloud and DevOps best practices.
+The system is built to handle **high traffic, media-heavy workloads** while ensuring **zero downtime, data durability, security, and cost optimization**. It uses **Auto Scaling, load balancing, shared storage, managed databases, and lifecycle-based storage optimization** to solve common challenges faced in traditional WordPress deployments.
+
+### 🔑 What This Project Proves
+- Ability to design **high-availability architectures** across multiple Availability Zones
+- Strong understanding of **AWS core services** (EC2, ALB, ASG, EFS, RDS, S3, IAM, CloudWatch)
+- Hands-on experience with **Auto Scaling, failure recovery, and performance testing**
+- Implementation of **cost-optimized storage strategies** (EFS → S3 → Glacier)
+- Security-first approach using **private subnets, IAM roles, and least-privilege access**
+- Experience documenting, testing, and validating real cloud systems
+
+### 🧠 Why This Matters  
+It reflects **real infrastructure decisions** that would be used in production environments, including:
+- Auto-healing systems
+- Stateless compute design
+- Shared state management
+- Observability and validation
+- Cost-aware cloud engineering
+
+This project showcases **practical cloud engineering and DevOps skills** suitable for roles such as **Cloud Engineer, DevOps Engineer, or Infrastructure Engineer**.
 
 # Business Impact
 1) 99.99% uptime through multi-AZ redundancy
