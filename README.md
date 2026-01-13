@@ -6,7 +6,7 @@ This project demonstrates a **production-grade, highly available, and scalable W
 The system is built to handle **high traffic, media-heavy workloads** while ensuring **zero downtime, data durability, security, and cost optimization**. It uses **Auto Scaling, load balancing, shared storage, managed databases, and lifecycle-based storage optimization** to solve common challenges faced in traditional WordPress deployments.
 
 ### 🔑 What This Project Proves
-- Ability to design **high-availability architectures** across multiple Availability Zones
+- Ability to design [**high-availability architectures**](screenshots/Architecture-Diagram.png) across multiple Availability Zones
 - Strong understanding of **AWS core services** (EC2, ALB, ASG, EFS, RDS, S3, IAM, CloudWatch)
 - Hands-on experience with **Auto Scaling, failure recovery, and performance testing**
 - Implementation of **cost-optimized storage strategies** (EFS → S3 → Glacier)
